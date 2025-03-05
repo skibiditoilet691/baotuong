@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Báo tường 12A2</title>
+	<link rel="stylesheet" href="CSS.css">
+	<style>
+		.header{height:570px;margin-top:0px;}
+		.content{margin-top:0px;background-color: rgb(252, 241, 225);overflow:hidden;}
+		.footer{height:170px;border-style: solid;padding:10px;margin-top: 20px;}
+		.footer1{width:31.5%;float:left;padding:10px;}
+		.picture1a{width:24%;margin-top:50px;float:left;margin-left:25px;}
+		.picture1b{width:24%;margin-top:50px;float:right;margin-left:25px;}
+		.picture2{width:47%;margin-top:30px;float:left;}
+		.picture3{width:49%;margin-top:30px;float:right;}
+		.picture4{width:49%;margin-top:30px;float:left;}
+		.column1{margin-top:50px;width:46%;border:groove;height:415px;padding:10px;float:left;overflow:scroll;background-color:;}
+		.column2{margin-top:30px;width:47%;border:groove;height:420px;padding:10px;float:right;overflow:scroll;}
+		.column3{margin-top:30px;width:47%;border:groove;height:480px;padding:10px;float:left;overflow:scroll;}
+		.column4{margin-top:30px;width:47%;border:groove;height:380px;padding:10px;float:right;overflow:scroll;}
+		.column5{margin-top:30px;width:47%;border:groove;height:332px;padding:10px;float:left;overflow:scroll;}
+		.column6{margin-top:30px;width:47%;border:groove;height:330px;padding:10px;float:right;}
+		.khung{position:fixed;width:100%;border:groove;background-color:black;margin-top:-16px;}
+		.dieuhuong{width:16.2%;float:left;text-align:center;}
+		.target {scroll-margin-top: 150px;}
+		.ykien{margin-top: 30px;width:100%;float:left;text-align: center;}
+		.ykien1{margin-top:5px;width:31.5%;border:groove;height:426px;padding:10px;float:left;}
+		.hinhykien{margin-top:5px;width:60px;}
+	</style>
+	<script>
+        function checkAnswer1() {
+            var answer = document.querySelector('input[name="answer"]:checked');
+            if (answer) {
+                if (answer.value === "C") {
+                    alert("Đúng!");
+                } else {
+                    alert("Sai!");
+                }
+            } else {
+                alert("Vui lòng chọn một đáp án!");
+            }
+        }
+    </script>
+    <script>
+        function checkAnswer2() {
+            var answer = document.querySelector('input[name="answer"]:checked');
+            if (answer) {
+                if (answer.value === "A") {
+                    alert("Đúng!");
+                } else {
+                    alert("Sai!");
+                }
+            } else {
+                alert("Vui lòng chọn một đáp án!");
+            }
+        }
+    </script>
+    <script>
+        function checkAnswer3() {
+            var answer = document.querySelector('input[name="answer"]:checked');
+            if (answer) {
+                if (answer.value === "C") {
+                    alert("Đúng!");
+                } else {
+                    alert("Sai!");
+                }
+            } else {
+                alert("Vui lòng chọn một đáp án!");
+            }
+        }
+    </script>
+</head>
+<body>
+	<div class="khung">
+		<div class="dieuhuong"><a href="#Topic1"><div class="maudieuhuong"><h1>Giới thiệu</h1></div></a></div>
+		<div class="dieuhuong"><a href="#Topic2"><div class="maudieuhuong"><h1>Thực trạng</h1></div></a></div>
+		<div class="dieuhuong"><a href="#Topic3"><div class="maudieuhuong"><h1>Giải pháp</h1></div></a></div>
+		<div class="dieuhuong"><a href="#Topic4"><div class="maudieuhuong"><h1>Lưu ý cho HS</h1></div></a></div>
+		<div class="dieuhuong"><a href="#Topic5"><div class="maudieuhuong"><h1>Hỏi đáp</h1></div></a></div>
+		<div class="dieuhuong"><a href="#Topic6"><div class="maudieuhuong"><h1>Cam kết</h1></div></a></div>	
+	</div>
+	<div class="header"> 
+		<p>.</p>
+		<p style="margin-bottom: 23px;"></p>
+		<video width="1421"autoplay muted>
+	      	<source src="heading 1.mp4" type="video/mp4">
+	      	<source src="heading 1.ogg" type="video/ogg">
+		</video>
+	</div>
+	<div class="content">
+		<div class= "picture1a">
+			<img src = "hinhdoc1.jpg"
+		height="437">
+		</div>
+		<div class="column1">
+			<h2 id="Topic1" class="target">Giới thiệu về an toàn giao thông</h2>
+			<div class="noidung">
+				<p><strong>An toàn giao thông</strong> là đảm bảo cho người tham gia giao thông giảm thiểu tình trạng phát sinh tai nạn giao thông và hạn chế tổn thất về vật chất, tính mạng, tinh thần của con người khi tham gia giao thông</p>
+				<p><em>- An toàn giao thông được đảm bảo thông qua:</em></p>
+				<ul>
+					<li><strong>Hành vi và văn hóa giao thông:</strong> Người tham gia giao thông cần tuân thủ các quy định pháp luật và có ý thức chấp hành tốt.</li>
+					<li><strong>Cơ sở hạ tầng giao thông:</strong> Đường xá, cầu cống, biển báo và các công trình giao thông khác cần được xây dựng và bảo trì tốt.</li>
+					<li><strong>Phương tiện giao thông:</strong> Các phương tiện cần được kiểm tra và bảo dưỡng định kỳ để đảm bảo an toàn.</li>
+				</ul>
+				<p># Thực trạng an toàn giao thông hiện nay tại Việt Nam vẫn còn nhiều thách thức. Mặc dù đã có những nỗ lực đáng kể từ phía chính phủ và các cơ quan chức năng, tai nạn giao thông vẫn xảy ra thường xuyên, đặc biệt là trên các tuyến đường bộ.</p>
+				<p class="slogan">Chấp hành luật lệ giao thông là bảo vệ mình và mọi người</p>
+			</div>
+		</div>
+		<div class= "picture1b">
+			<img src = "hinhdoc2.jpg"
+		height="437">
+		</div>
+		<div class= "picture2">
+			<img src = "dothi.jpg"
+		height="440">
+		</div>
+
+		<div class="column2">
+			<h2 id="Topic2" class="target">Thực trạng về an toàn giao thông Việt Nam</h2>
+			<div class="noidung">
+				<p>Hiện nay, an toàn giao thông là một trong những vấn đề được quan tâm hàng đầu tại các quốc gia trên thế giới và đặc biệt là tại Việt Nam. Số người tham gia giao thông ngày càng nhiều và số người bị thương hay số người chết do tai nạn giao thông không hề giảm đi mà còn tăng lên hàng năm. </p>
+				<p><em>Số liệu thống kê như sau: </em></p>
+				<p>- Tại Việt Nam, theo số liệu thống kế mới nhất, xe máy chiếm khoảng <strong>93%</strong> tổng số phương tiện giao thông đường bộ. Tỷ lệ tai nạn giao thông liên quan đến xe máy chiếm khoảng <strong>60%</strong> tổng số vụ tai nạn giao thông đường bộ, điều này đòi hỏi phải có những giải pháp quyết liệt và toàn diện hơn để bảo vệ người đi xe máy, giảm thiểu thương vong và hậu quả từ các vụ tai nạn.</p>
+				<p>- Theo thống kê của Cục Cảnh sát giao thông,<strong>80%</strong> đối tượng và nạn nhân của tai nạn giao thông ở Việt Nam là người 20-50 tuổi, còn học sinh sinh viên chiếm <strong>6%</strong>.</p>
+				<p class="slogan">Xe không có thắng, chạy thẳng vào hòm</p>
+			</div>
+		</div>
+	
+		<div class="column3">
+			<h2 id="Topic3" class="target">Giải pháp đảm bảo an toàn giao thông</h2>
+			<div class="noidung">
+				<ul>
+					<li><strong>Cải thiện cơ sở hạ tầng giao thông:</strong> Đầu tư xây dựng và bảo trì hệ thống đường bộ, hệ thống đèn tín hiệu, biển báo giao thông rõ ràng và đầy đủ. Đặc biệt, cần chú ý đến các khu vực giao lộ, nơi có nguy cơ tai nạn cao.</li>
+					<li><strong>Tăng cường kiểm tra, xử phạt nghiêm minh:</strong> Các lực lượng chức năng cần tăng cường công tác kiểm tra và xử phạt vi phạm giao thông, nhất là đối với các lỗi như vượt đèn đỏ, chạy quá tốc độ, lái xe khi say rượu hoặc sử dụng điện thoại khi lái xe.</li>
+					<li><strong> Tăng cường giáo dục và tuyên truyền:</strong> Tăng cường công tác giáo dục pháp luật, các chiến dịch tuyên truyền nhằm nâng cao nhận thức, trách nhiệm của cán bộ, đảng viên và Nhân dân về bảo đảm trật tự, an toàn giao thông. Việc nâng cao ý thức giúp mọi người chủ động tuân thủ luật lệ và giảm thiểu tai nạn.</li>
+					<li><strong>Sử dụng công nghệ hỗ trợ giao thông thông minh:</strong> Hệ thống quản lý giao thông thông minh (ITS) sử dụng các cảm biến, camera và các công nghệ khác để thu thập dữ liệu về tình trạng giao thông. Dữ liệu này có thể được sử dụng để tối ưu hóa tín hiệu đèn giao thông, cảnh báo người lái về ùn tắc giao thông và cung cấp thông tin về các tuyến đường thay thế. Từ đó, giúp quản lý và điều phối giao thông, giảm ùn tắc và tăng cường sự an toàn trên đường.</li>
+				</ul>
+				<p class="slogan">Nhanh một giây, chậm cả đời</p>
+			</div>
+		</div>
+
+		<div class= "picture3">
+			<img src = "hinhghep.jpg" alt="test"
+			height=500>
+		</div>
+		<div class="noidung">
+			<div class="ykien"><h2>Ý kiến khảo sát từ người dân</h2></div>
+			<div class="ykien1">
+				<img src = "ykien1.jpg" width= "450px">
+				<p><strong>Người dân 1: </strong>Giao thông ở đây rất lộn xộn, nhất là sáng và chiều. Nhiều người lấn làn, chạy ngược chiều, vượt đèn đỏ, gây nguy hiểm. Lòng đường hẹp, vỉa hè lại bị lấn chiếm, khiến xe cộ dồn xuống lòng đường, gây ùn tắc. Tôi nghĩ cần xử lý nghiêm vi phạm lấn chiếm vỉa hè, đỗ xe sai quy định, đồng thời nâng cao ý thức người dân khi tham gia giao thông.</p>
+			</div>
+			<div class="ykien1">
+				<img src = "ykien2.jpg" width= "450px" height="270px">
+				<p><strong>Người dân 2: </strong>Giờ tan làm, đường nào cũng đông nghẹt. Chờ đèn đỏ mất mấy phút vì xe chen lấn. Đường hẹp, xe cộ ngày càng nhiều. Tôi nghĩ cần mở rộng đường, quy hoạch giao thông hợp lý hơn và khuyến khích sử dụng phương tiện công cộng để giảm kẹt xe.</p>
+			</div>
+			<div class="ykien1">
+				<img src = "ykien3.jpg" width= "450px" height= "270px">
+				<p><strong>Người dân 3: </strong>Ban đêm xe ít hơn nhưng nhiều người vẫn chạy ẩu, đặc biệt là thanh niên phóng nhanh, lạng lách. Cần lắp thêm đèn đường, kiểm tra xử lý vi phạm tốc độ. Người dân cũng nên cẩn thận, tránh đi vào những đoạn đường vắng.</p>
+			</div>
+		</div>
+		<div class= "picture4">
+			<video src="video.mp4"controls
+			height="400"></video>
+		</div>
+
+		<div class="column4">
+			<h2 id="Topic4" class="target"><center>Lưu ý khi tham gia giao thông dành cho học sinh</center></h2>
+			<div class="noidung">
+				<ul>
+					<li><strong>Đội mũ bảo hiểm khi đi xe máy, xe đạp điện:</strong> Khi tham gia giao thông học sinh bắt buộc phải đội mũ bảo hiểm đạt chuẩn để bảo vệ đầu trong trường hợp xảy ra tai nạn.</li>
+					<li><strong>Đi đúng phần đường quy định:</strong> Học sinh cần đi đúng phần đường dành cho xe đạp, xe máy và không đi vào làn đường dành cho ô tô. Nếu có vạch kẻ đường dành riêng cho người đi bộ, cần đi đúng nơi quy định.</li>
+					<li><strong>Tuân thủ luật giao thông:</strong> Luôn tuân thủ các biển báo và đèn tín hiệu giao thông, đặc biệt là khi qua ngã tư, lối vào trường học hoặc các khu vực có đông người.</li>
+					<li><strong>Không đi xe máy khi chưa có bằng lái:</strong> Học sinh chưa đủ 18 tuổi và chưa có giấy phép lái xe không nên tham gia giao thông bằng xe máy.</li>
+					<li><strong>Không sử dụng điện thoại khi tham gia giao thông:</strong> Việc sử dụng điện thoại khi lái xe hay đi bộ dễ gây mất tập trung và có thể dẫn đến tai nạn.</li>
+					<li><strong>Đọc và nắm rõ biển báo giao thông đường bộ:</strong> Học sinh tham gia giao thông phải biết quan sát biển báo, hiểu ý nghĩa của từng biển báo và thực hành theo. </li>
+					<p class="slogan">Chạy nhanh thắng gấp, nằm sấp như chơi</p>
+				</ul>
+			</div>
+		</div>
+
+		<div class=column5>
+			<h2 id="Topic5" class="target"><center>Hỏi xoáy đáp xoay</center></h2>
+			<div class="noidung">
+				<h4>Câu hỏi 1: Đây là tiếng còi từ xe gì?</h4>
+				<audio src="câu1.mp3"controls></audio>
+    			<form>
+        			<input type="radio" name="answer" value="A"> A. Xe buýt<br>
+        			<input type="radio" name="answer" value="B"> B. Xe cứu hỏa <br>
+       				<input type="radio" name="answer" value="C"> C. Xe cứu thương <br>
+        			<br>
+        			<button type="button" onclick="checkAnswer1()">Kiểm tra</button>
+    			</form>
+    			<h4>Câu hỏi 2: Nếu chúng ta nghe thấy âm thanh này từ phía sau, chúng ta phải làm gì?</h4>
+    			<audio src="câu2.mp3"controls></audio>
+    			<form>
+        			<input type="radio" name="answer" value="A"> A. Tấp qua một bên nhường đường <br>
+        			<input type="radio" name="answer" value="B"> B. Đua theo <br>
+        			<input type="radio" name="answer" value="C"> C. Không nhường đường <br>
+        			<br>
+        			<button type="button" onclick="checkAnswer2()">Kiểm tra</button>
+    			</form>
+    			<h4>Câu hỏi 3: Đang đi đường gặp sự kiện như trên chúng ta nên làm gì?</h4>
+    			<audio src="câu3.mp3"controls></audio>
+    			<form>
+        			<input type="radio" name="answer" value="A"> A. Lách sang rồi chạy tiếp <br>
+        			<input type="radio" name="answer" value="B"> B. Xuống xe đứng hóng <br>
+       				<input type="radio" name="answer" value="C"> C. Báo công an về vụ tai nạn <br>
+        			<br>
+	        		<button type="button" onclick="checkAnswer3()">Kiểm tra</button>
+	    		</form>
+	    	</div>
+		</div>
+
+		<div class="column6">
+			<h2 id="Topic6" class="target"><center>Cam kết an toàn giao thông</center></h2>
+			<div class="noidung">
+				<form action="camket.php" method="POST">
+					<p>Tôi tên là: <input type="text"name="ten" value="Hãy điển tên bạn vào đây"></p>
+					<p> Loại phương tiện tôi thường sử dụng là: </p>
+					<input type="radio" name="xe" value="xe đạp"> XE ĐẠP
+					<input type="radio" name="xe" value="xe máy"> XE MÁY
+					<input type="radio" name="xe" value="xe ô tô"> XE Ô TÔ
+					<input type="radio" name="xe" value="xe buýt"> XE BUÝT
+				</form>
+				<p style="margin-bottom: 10px;"></p>
+				<form>
+					<h3><input type="checkbox" name="tick" > Tôi cam kết chấp hành luật an toàn giao thông vì sự an toàn của bản thân và mọi người xung quanh. </h3>
+				</form>
+				<form action="camon.html" method="GET">
+					<center><button type="submit"><h3>Gửi là phải thực hiện được nhé!</h3></button></center>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer">
+		<div class="footer1">
+			<p>Nhóm 8 - Lớp 12A2</p>
+			<p>Thành viên:</p>
+			<ul>
+				<li>Trịnh Quốc Bảo</li>
+				<li>Lê Nhật Trúc Minh</li>
+				<li>Phan Anh Khôi</li>
+				<li>Đào Ngọc Minh Vy</li>
+			</ul>
+		</div>
+		
+		<div class="footer1">
+			<p> Bài báo tường lấy dữ liệu từ các nguồn sau đây:</p>
+			<ul>
+				<li>atgt.bacgian.gov.vn</li>
+				<li>antoangiaothong.phuyen.gov.vn</li>
+				<li>tayninh.gov.vn</li>
+				<li>baochinhphu.vn</li>
+				<li>antoangiaothong.gov.vn</li>
+			</ul>
+		</div>
+		<div class="footer1">
+			<p>Email đại diện: baotq.a2.2225@gmail.com</p>
+			<p>Ngày cập nhật cuối: Thứ 7, ngày 1, tháng 3, năm 2025</p>
+		</div>
+	</div>
+</body>
+</html>
