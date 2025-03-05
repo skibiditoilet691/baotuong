@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&family=Yeseva+One&display=swap');
+
+
+h2{; font-size: 30px; font-family:Dela Gothic One;text-align: center;}
+.noidung{;font-size:14;font-family: Playfair Disply;}
+.slogan{font-family:Sigmar;font-size:20px;text-align: center;}
+.footer{background-color: lightgray;}
+.maudieuhuong{color:white; font-family: Montserrat;font-size: 10px;}
+.content{background-color: #F2F2F2}
+.column1{background-color: #F8E9A1;}
+.column2{background-color:#FFCAD4;}
+.column3{background-color:#A8D0E6;}
+.ykien{background-color:#BAD9B5;}
+.column4{background-color:#FFD8BE;}
+.column5{background-color:#EFC7C2;}
+.column6{background-color:#EFC7C2;}
